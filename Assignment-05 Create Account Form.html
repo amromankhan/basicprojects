@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1  .0">
+<title>Create Your Account</title>
+<style type="text/CSS">
+    label
+    {
+        display: block;
+    } 
+    label span
+    {
+        display: inline-block;
+        text-align: right;
+        width: 260px;
+    }
+
+    </style>
+</head>
+
+<!--- Heading-->
+<body style="font-family:sans-serif;">
+<div align="" style="margin-inline-start: 110px;"><h1 style="background-color:#29b6f6; width: 700px; text-align: center;">Assignment-05 Create Account Form</h1></div>
+<div>
+<h1 align="" style="margin-inline-start: 110px;">Create Your Account</h1>
+</div>
+<div>
+<p align="" style="margin-inline-start: 110px;"><font color="red">* Required information</font></p>	
+</div>
+
+<!--- First Form-->
+<form>
+<table align="center" width="700" bgcolor="#f5f5f5" cellpadding="5px" cellspacing="2px">
+<tr>
+<td bgcolor="lightgrey"><b>&nbsp Basic Information</b></td>
+</tr>&nbsp;
+<tr><td><label for="email"><span>Email<font color="red"> *</font></span>
+    <input type="email" name="Email" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>
+<tr>
+<td><label for="password"><span>Password<font color="red"> *</font></span>
+    <input type="text" name="password" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td>
+</tr>&nbsp;
+<tr>
+    <td><label for="retypepassword"><span>Retype Password<font color="red"> *</font></span>
+        <input type="text" name="password" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td>
+    </tr>&nbsp;
+</tr>&nbsp;
+<tr>
+    <td><label for="firstname"><span>First Name<font color="red"> *</font></span>
+        <input type="text" name="firstname" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td> 
+</tr>&nbsp;
+<tr>
+    <td>
+        <label for="lastname"><span>Last Name<font color="red"> *</font></span>
+        <input type="text" name="lastname" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label>
+    </td>
+</tr>&nbsp;
+<tr>
+    <td><label for="number"><span>Phone Number<font color="red"> *</font></span>
+        <input type="text" name="number" placeholder="92-3123456789" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td>
+</tr>&nbsp;
+<tr>
+    <td><label for="address"><span>Address<font color="red"> *</font></span>
+        <input type="text" name="address" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td>
+</tr>&nbsp;
+<tr>
+    <td><label for="city"><span>City<font color="red"> *</font></span>
+        <input type="text" name="city" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td>
+</tr>&nbsp;
+<tr>
+    <td><label for="province"><span>Province<font color="red"> *</font></span>
+        <select name="province" id="province" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke border-style: ridge; width: 170px; height: 20px; border-radius: 5px">
+            <option value="Sindh">Sindh</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Balochistan">Balochistan</option></select></label></td>
+        </tr>&nbsp;
+<tr>
+   <td><label for="country"><span>Country<font color="red"> *</font></span>
+    <input type="text" name="country" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td>
+</tr>&nbsp;
+</table>
+
+<!--- Second Form-->
+<table align="center" width="700" bgcolor="#f5f5f5" cellpadding="5px" cellspacing="2px">
+    <tr>
+    <td bgcolor="lightgrey"><b>&nbsp Education</b></td>
+    </tr>&nbsp;
+    <tr><td><label for="school"><span>School<font color="red"> *</font></span>
+        <input type="text" name="school" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>
+        <tr><td><label for="program"><span>Program<font color="red"> *</font></span>
+            <input type="text" name="program" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>
+    <tr>
+                <td><label for="edulevel"><span>Education Level<font color="red"> *</font></span>
+                    <select name="edulevel" id="edulevel" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke border-style: ridge; width: 170px; height: 20px; border-radius: 5px">
+                        <option value="-select-">-select-</option></label></td>
+    </tr>&nbsp;
+    <form><tr>
+        <td align="center">
+            <fieldset style=" text-align: left; box-shadow: 2px 2px 4px grey;background-color: white;  border-color:whitesmoke border-style: ridge; width:160px; border-radius: 5px; " >
+        <div><legend>Education Status</legend>
+            <label><input type="radio" name="graduated" value="graduated">Graduated</label>
+            <label><input type="radio" name="currentenrolled" value="currentenrolled">Current Enrolled</label>
+            <label><input type="radio" name="didnotgraduate" value="didnotgraduate">Did Not Graduate</label>         
+        </fieldset></div>
+</td>
+</tr></form>
+<tr><td><label for="grdate"><span>Graduation Date
+</span><input type="text" name="grdate" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>
+</table>
+
+    <!--- Third Form-->
+<table align="center" width="700" bgcolor="#f5f5f5" cellpadding="5px" cellspacing="2px">
+    <tr>
+    <td bgcolor="lightgrey"><b>&nbsp Experience</b></td>
+    </tr>&nbsp;
+    <tr><td><label for="emp"><span>Employer:</span>
+        <input type="text" name="emp" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>&nbsp;
+        <tr><td><label for="jobtitle"><span>Job Title:</span>
+            <input type="text" name="jobtitle" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>&nbsp;
+            <tr><td><label for="jobduty"><span>Job Duty:</span>
+                <input type="textarea" name="jobduty" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px; height: 50px;"></label></td></tr>&nbsp;
+                <tr><td><label for="workyear"><span>Worked Year:</span>
+                    <input type="text" name="workyear" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>&nbsp;
+</table>
+
+                     <!--- Last Form-->
+<table align="center" width="700" bgcolor="#f5f5f5" cellpadding="5px" cellspacing="2px">
+    <tr>
+    <td bgcolor="lightgrey"><b>&nbsp Attachments</b></td>
+    </tr>&nbsp;
+    <tr><td><label for="attachments"><span>Attachments:</span>
+        <input type="file" name="attachments" style="box-shadow: 2px 2px 4px grey; border-color:whitesmoke; border-style:ridge;border-radius: 5px"></label></td></tr>&nbsp;
+</table>
+<br>
+<div align="center" style="margin-inline-start: 20px;">
+    <input type="reset" style="background-color:red; border-color: transparent; border-radius: 2px ; box-shadow: 2px 2px 4px gray; color: white; ">&nbsp;&nbsp;
+<button type="submit" style="background-color:red; border-color: transparent; border-radius: 2px ; box-shadow: 2px 2px 4px gray; color: white; ">Apply</button>
+</div>
+<br>
+<p style="margin-inline-start: 110px; font-size: small;"><i>Prepared By: <u>Roman Khan</u></i></p>
+
+
+</body>
+</html>
+ 
